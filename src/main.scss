@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+:root {
+  font-family: 'Josefin Sans', sans-serif;
+  --color-text: #000;
+  --color-background: #02010A;
+  --color-socials: #19b4a9;
+  --color-buttons: #0D0221;
+}
+
+body {
+  // background-image: url("./assets/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: fff;
+
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 4rem 0rem;
+  padding-right: 60px;
+  padding-left: 60px;
+
+  @media only screen and (max-width: 768px) {
+    padding: 1rem;
+    padding-right: 1rem;
+    
+    .mantine-Container-root {
+      padding: 0px;
+    }
+  }
+}
