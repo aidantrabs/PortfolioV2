@@ -1,9 +1,17 @@
-import AppContainer from './AppContainer/AppContainer';
 import Navbar from './Navbar/Navbar';
-import InfoSection from './InfoSection/InfoSection';
+import HeroSection from './HeroSection/HeroSection';
+import AboutSection from './AboutSection/AboutSection';
+import ExperienceSection from './ExperienceSection/ExperienceSection';
+import ProjectsSection from './ProjectsSection/ProjectsSection';
+import ContactSection from './ContactSection/ContactSection';
+import SocialBar from './SocialBar/SocialBar';
 
 export {
-     AppContainer,
      Navbar,
-     InfoSection,
+     HeroSection,
+     SocialBar,
+     AboutSection,
+     ExperienceSection,
+     ProjectsSection,
+     ContactSection,
 };
