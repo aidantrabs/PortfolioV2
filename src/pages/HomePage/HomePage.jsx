@@ -1,13 +1,17 @@
 import React from "react";
 import './HomePage.css';
 
-import { Navbar, InfoSection } from "../../components";
+import { Navbar, HeroSection, AboutSection, ExperienceSection, ProjectsSection, ContactSection } from "../../components";
 
 const HomePage = () => {
      return (
           <>
                <Navbar />
-               <InfoSection />
+               <HeroSection />
+               <AboutSection />
+               <ExperienceSection />
+               <ProjectsSection />
+               <ContactSection />
           </>
      );
 };
