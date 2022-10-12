@@ -9,9 +9,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@mantine/core": "^5.5.4",
+    "@mantine/hooks": "^5.5.4",
+    "particles-bg": "^2.5.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.2"
+    "react-icons": "^4.4.0",
+    "react-router-dom": "^6.4.2",
+    "react-scroll": "^1.8.7",
+    "sass": "^1.55.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
