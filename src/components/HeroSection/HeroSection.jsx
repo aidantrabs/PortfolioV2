@@ -3,9 +3,11 @@ import './HeroSection.scss';
 import { Button, Container, MediaQuery, Text } from '@mantine/core';
 import { Link } from 'react-scroll';
 import { AiOutlineArrowDown } from 'react-icons/ai';
+import { Wave } from '../../assets';
 
 const HeroSection = () => {
      return (
+          <>
           <section id="hero">
                <Container fluid>
                     <div className="hero__container">
@@ -31,6 +33,7 @@ const HeroSection = () => {
                     </div>
                </Container>
           </section>
+          </>
      );
 };
 

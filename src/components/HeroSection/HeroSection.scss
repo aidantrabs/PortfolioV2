@@ -1,41 +1,43 @@
 #hero {
-     min-height: 100vh;
-     height: 100vh;
-     display: flex;
-     align-items: center;
-     padding-top: 0px;
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 0px;
+    background: rgb(52,73,102);
+    background: linear-gradient(0deg, rgba(52,73,102,1) 0%, rgba(230,170,206,1) 100%);
  
-     .hero__container {
+    .hero__container {
         text-align: center;
         padding: 160px 120px;
         border-radius: 25px;
          
-         .title {
-            font-size: 7vmin;
-            letter-spacing: 2px;
-            font-weight: 00;
-            margin-top: 0px;
-         }
- 
-         .button__container {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            gap: 10px;
-         }
-          
-         @media only screen and (max-width: 1086px) {
-             padding: 110px 120px;
-         }
- 
-         @media only screen and (max-width: 768px) {
-             padding: 120px 40px;
-         }
- 
-         @media only screen and (max-width: 350px) {
-             padding: 80px 20px;
-         }
-     }
+        .title {
+        font-size: 7vmin;
+        letter-spacing: 2px;
+        font-weight: 00;
+        margin-top: 0px;
+        }
+
+        .button__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        }
+        
+        @media only screen and (max-width: 1086px) {
+            padding: 110px 120px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            padding: 120px 40px;
+        }
+
+        @media only screen and (max-width: 350px) {
+            padding: 80px 20px;
+        }
+    }
  
      @media only screen and (max-width: 425px) {
          .mantine-Container-root {
