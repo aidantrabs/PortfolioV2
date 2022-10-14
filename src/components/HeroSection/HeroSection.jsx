@@ -20,7 +20,7 @@ const HeroSection = () => {
                          </div>
 
                          <div style={{ marginBottom: 25 }}>
-                              <Text size="xl" color="black">
+                              <Text size="xl" color="white">
                                    Hi there, I'm a third year Computer Science Student @ wlu
                               </Text>
                          </div>

@@ -4,8 +4,8 @@
     display: flex;
     align-items: center;
     padding-top: 0px;
-    background: rgb(52,73,102);
-    background: linear-gradient(0deg, rgba(52,73,102,1) 0%, rgba(230,170,206,1) 100%);
+    // background: rgb(52,73,102);
+    // background: linear-gradient(0deg, rgba(52,73,102,1) 0%, rgba(230,170,206,1) 100%);
  
     .hero__container {
         text-align: center;
@@ -13,17 +13,18 @@
         border-radius: 25px;
          
         .title {
-        font-size: 7vmin;
-        letter-spacing: 2px;
-        font-weight: 00;
-        margin-top: 0px;
+            font-size: 7vmin;
+            letter-spacing: 2px;
+            font-weight: 00;
+            margin-top: 0px;
+            color: #fff;
         }
 
         .button__container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 10px;
         }
         
         @media only screen and (max-width: 1086px) {
