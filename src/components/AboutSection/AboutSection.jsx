@@ -10,13 +10,15 @@ const AboutSection = () => {
                     <Grid justify="space-around">
                          <Grid.Col xs={6} sm={8} md={8} lg={8}>
                               <div style={{ marginBottom: 20 }}>
-                                   <Text color="black">
+                                   <Text color="white">
                                         <Title order={1}> About </Title>
+                                        <div className="spacer" style={{ width: "100%", height: "1.5em" }} />                                       
                                         <Divider />
-                                        <Blockquote>
-                                             <p>
+                                        <div className="spacer" style={{ width: "100%", height: "2em" }} />
+                                        <Blockquote color="blue">
+                                             <Text color="white">
                                                   I'm a third year Computer Science student at Wilfrid Laurier University. I'm passionate about building software that is both functional and beautiful. I'm currently looking for a co-op position for the summer of 2022.
-                                             </p>
+                                             </Text>
                                         </Blockquote>
                                    </Text>
                               </div>
