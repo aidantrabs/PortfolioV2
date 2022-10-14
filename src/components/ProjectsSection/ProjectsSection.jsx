@@ -1,13 +1,14 @@
 import React from 'react';
 import './ProjectsSection.scss';
 import { Button, Badge, Container, Card, Group, Grid, Image, Text, Title, Divider } from '@mantine/core';
+import { Gradient } from '../../assets';
 
 const ProjectsSection = () => {
      return (
           <section id="projects">
                <div className="projects__container">
                     <Container>
-                         <Title order={1} align="center">Projects</Title>
+                         <Title order={1} align="left" color={"white"}>Projects</Title>
                          <div className="spacer" style={{ width: "100%", height: "1.5em" }} />
                          <Divider />
                          <div className="spacer" style={{ width: "100%", height: "2em" }} />
@@ -17,7 +18,7 @@ const ProjectsSection = () => {
                                    <Card shadow="sm" p="lg" radius="lg" withBorder>
                                         <Card.Section>
                                              <Image 
-                                                  src=""
+                                                  src={Gradient}
                                                   height={150}
                                                   alt="Project 1"
                                              />
@@ -43,7 +44,7 @@ const ProjectsSection = () => {
                                    <Card shadow="sm" p="lg" radius="lg" withBorder>
                                         <Card.Section>
                                              <Image 
-                                             src=""
+                                             src={Gradient}
                                              height={150}
                                              alt="Project 2"
                                              />
@@ -69,7 +70,7 @@ const ProjectsSection = () => {
                                    <Card shadow="sm" p="lg" radius="lg" withBorder>
                                         <Card.Section>
                                              <Image 
-                                             src=""
+                                             src={Gradient}
                                              height={150}
                                              alt="Project 3"
                                              />
