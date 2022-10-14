@@ -6,11 +6,11 @@ import { MdOutlineContactPage } from "react-icons/md";
 const SocialBar = () => {
     return (
         <Center>
-            <Grid align="left" grow>
+            <Grid grow>
                 <Grid.Col span={3}>
                     <a href="https://instagram.com/aidantraboulayy" target="_blank" rel="external noreferrer">
                         <ActionIcon size="xl">
-                            <AiFillInstagram size={100} color="#02010A"/>  
+                            <AiFillInstagram size={100} color="rgba(32,38,57,1)"/>  
                         </ActionIcon>
                     </a>
                 </Grid.Col>
@@ -18,7 +18,7 @@ const SocialBar = () => {
                 <Grid.Col span={3}>
                     <a href="https://linkedin.com/in/aidan-traboulay" target="_blank" rel="external noreferrer">
                         <ActionIcon size="xl">
-                            <AiFillLinkedin size={100} color="#02010A"/>
+                            <AiFillLinkedin size={100} color="rgba(32,38,57,1)"/>
                         </ActionIcon>
                     </a>
                 </Grid.Col>
@@ -26,7 +26,7 @@ const SocialBar = () => {
                 <Grid.Col span={3}>
                     <a href="https://github.com/aidantrabs" target="_blank" rel="external noreferrer">
                         <ActionIcon size="xl">
-                            <AiFillGithub size={100} color="#02010A"/>
+                            <AiFillGithub size={100} color="rgba(32,38,57,1)"/>
                         </ActionIcon>
                     </a>
                 </Grid.Col>
@@ -34,7 +34,7 @@ const SocialBar = () => {
                 <Grid.Col span={3}>
                     <a href="#" target="_blank" rel="next noreferrer">
                         <ActionIcon size="xl">
-                            <MdOutlineContactPage size={100} color="#02010A"/>
+                            <MdOutlineContactPage size={100} color="rgba(32,38,57,1)"/>
                         </ActionIcon>
                     </a>
                 </Grid.Col>
