@@ -1,8 +1,9 @@
 import React from 'react';
 import './Navbar.scss';
-import { Anchor, Button, Burger, Drawer, Text, Title } from '@mantine/core';
+import { Button, Burger, Drawer, Title } from '@mantine/core';
 import { Link } from 'react-scroll';
 import { SocialBar } from '../../components';
+import { Brand } from '../../assets';
 
 const Navbar = () => {
 
@@ -12,7 +13,7 @@ const Navbar = () => {
           <header>
                <div className="navbar__desktop">
                     <div>
-
+                         
                     </div>
                     <div className="navbar">
                          <div className="navbar__item"><Link to="about" smooth duration={400}>About</Link></div>

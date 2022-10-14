@@ -13,12 +13,12 @@ header {
             font-weight: 500;
             
             a {
-                color: #2d2d2d;
+                color: #fff;
                 transition: all 0.1s ease;
             }
         
             a:hover {
-                color: red;
+                color: rgba(32,38,57,1);
                 text-decoration: none;
             }
         }
