@@ -6,7 +6,11 @@ import Router from './utils/Router';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <MantineProvider>
+    <MantineProvider withGlobalStyles withNormalizeCSS
+      theme={{
+        fontFamily: 'Josefin Sans', 
+      }}
+    >
       <Router/>
     </MantineProvider>
   </React.StrictMode>
