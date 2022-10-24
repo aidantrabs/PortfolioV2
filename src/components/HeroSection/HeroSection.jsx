@@ -1,9 +1,9 @@
 import React from 'react';
 import './HeroSection.scss';
-import { Button, Container, MediaQuery, Text } from '@mantine/core';
+import { Button, Container, MediaQuery, Text, Image } from '@mantine/core';
 import { Link } from 'react-scroll';
 import { AiOutlineArrowDown } from 'react-icons/ai';
-import { Wave } from '../../assets';
+import { Programmer } from '../../assets';
 
 const HeroSection = () => {
      return (
@@ -15,7 +15,10 @@ const HeroSection = () => {
                               <Text>
                                    <MediaQuery query="(max-width: 768px)" styles={{ fontSize: '2.8rem !important' }}>
                                         <h1 className="title">Aidan Traboulay</h1>
-                                   </MediaQuery>                              
+                                   </MediaQuery>     
+
+                                   <Image src={Programmer} alt="programmer" width="80%"/>
+
                               </Text>
                          </div>
 
@@ -27,7 +30,7 @@ const HeroSection = () => {
 
                          <div className="button__container">
                               <Link to="about" smooth duration={400}>
-                                   <Button color="blue" size="md" rightIcon={<AiOutlineArrowDown/>}>Learn More</Button>
+                                   <Button color="btn-color.3" size="md" rightIcon={<AiOutlineArrowDown/>}>Learn More</Button>
                               </Link>
                          </div>
                     </div>
