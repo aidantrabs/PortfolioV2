@@ -18,51 +18,51 @@ header {
             }
         
             a:hover {
-                color: rgba(32,38,57,1);
+                color: rgb(56, 2, 59);
                 text-decoration: none;
             }
         }
     }
  
-    .navbar__desktop {
-         justify-content: space-between;
-         display: flex;
-         align-items: center;
-     }
- 
-    .navbar__mobile {
-         .burger__button {
-             float: right;
-         }
-     }
- 
-     @media only screen and (min-width: 769px) {
-         .navbar__desktop {
-             display: flex;
-         }
+.navbar__desktop {
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
 
-          .navbar__mobile {
-               display: none;
-          }
- 
-         top: 60px;
-         left: 60px;
-         right: 60px;
-     }
- 
-     @media only screen and (max-width: 768px) {
-         .navbar__desktop {
-             display: none;
-         }
- 
-          .navbar__mobile {
-             display: block;
-         }
- 
-         top: 30px;
-         left: 20px;
-         right: 20px;
-     }
+.navbar__mobile {
+        .burger__button {
+            float: right;
+        }
+    }
+
+    @media only screen and (min-width: 769px) {
+        .navbar__desktop {
+            display: flex;
+        }
+
+        .navbar__mobile {
+            display: none;
+        }
+
+        top: 60px;
+        left: 60px;
+        right: 60px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .navbar__desktop {
+            display: none;
+        }
+
+        .navbar__mobile {
+            display: block;
+        }
+
+        top: 30px;
+        left: 20px;
+        right: 20px;
+    }
 }
  
 .drawer__content {

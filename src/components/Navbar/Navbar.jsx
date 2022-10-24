@@ -20,7 +20,7 @@ const Navbar = () => {
                          <div className="navbar__item"><Link to="experience" smooth duration={400}>Experience</Link></div>
                          <div className="navbar__item"><Link to="projects" smooth duration={400}>Projects</Link></div>
 
-                         <Button color="" size="sm"> Contact </Button>
+                         <Button color="btn-color.3" size="sm"> Contact </Button>
                     </div>
                </div>
 
