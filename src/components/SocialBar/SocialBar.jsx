@@ -9,32 +9,32 @@ const SocialBar = () => {
             <Grid grow>
                 <Grid.Col span={3}>
                     <a href="https://instagram.com/aidantraboulayy" target="_blank" rel="external noreferrer">
-                        <ActionIcon size="xl">
-                            <AiFillInstagram size={100} color="rgba(32,38,57,1)"/>  
+                        <ActionIcon size="xl" variant="transparent" color="btn-color.1">
+                            <AiFillInstagram size={100}/>  
                         </ActionIcon>
                     </a>
                 </Grid.Col>
 
                 <Grid.Col span={3}>
                     <a href="https://linkedin.com/in/aidan-traboulay" target="_blank" rel="external noreferrer">
-                        <ActionIcon size="xl">
-                            <AiFillLinkedin size={100} color="rgba(32,38,57,1)"/>
+                        <ActionIcon size="xl" variant="transparent" color="btn-color.1">
+                            <AiFillLinkedin size={100}/>
                         </ActionIcon>
                     </a>
                 </Grid.Col>
 
                 <Grid.Col span={3}>
                     <a href="https://github.com/aidantrabs" target="_blank" rel="external noreferrer">
-                        <ActionIcon size="xl">
-                            <AiFillGithub size={100} color="rgba(32,38,57,1)"/>
+                        <ActionIcon size="xl" variant="transparent" color="btn-color.1">
+                            <AiFillGithub size={100}/>
                         </ActionIcon>
                     </a>
                 </Grid.Col>
 
                 <Grid.Col span={3}>
                     <a href="#" target="_blank" rel="next noreferrer">
-                        <ActionIcon size="xl">
-                            <MdOutlineContactPage size={100} color="rgba(32,38,57,1)"/>
+                        <ActionIcon size="xl" variant="transparent"  color="btn-color.1">
+                            <MdOutlineContactPage size={100}/>
                         </ActionIcon>
                     </a>
                 </Grid.Col>
