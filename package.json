@@ -10,8 +10,11 @@
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",
+    "@mantine/carousel": "^5.6.4",
     "@mantine/core": "^5.5.4",
     "@mantine/hooks": "^5.5.4",
+    "@tabler/icons": "^1.110.0",
+    "embla-carousel-react": "^7.0.4",
     "particles-bg": "^2.5.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
