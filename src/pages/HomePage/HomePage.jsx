@@ -1,17 +1,21 @@
 import React from "react";
 import './HomePage.css';
-import { Navbar, HeroSection, AboutSection, ExperienceSection, ProjectsSection, ContactSection } from "../../components";
+import { Navbar, HeroDivider, ExperienceDivider, ProjectDivider, HeroSection, AboutSection, ExperienceSection, ProjectsSection, Footer, ContactDivider } from "../../components";
 
 const HomePage = () => {
      return (
-          <>
+          <div className="home">
                <Navbar />
                <HeroSection />
-               <AboutSection />
+               <HeroDivider />
                <ExperienceSection />
+               <ExperienceDivider />
                <ProjectsSection />
-               <ContactSection />
-          </>
+               <ProjectDivider />
+               <AboutSection />
+               <ContactDivider />
+               <Footer />
+          </div>
      );
 };
 
