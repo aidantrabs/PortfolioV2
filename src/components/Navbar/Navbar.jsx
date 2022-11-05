@@ -2,7 +2,7 @@ import React from 'react';
 import './Navbar.scss';
 import { Button, Burger, Drawer, Title } from '@mantine/core';
 import { Link } from 'react-scroll';
-import { SocialBar } from '../../components';
+import { ContactButton } from '../../components';
 import { Brand } from '../../assets';
 
 const Navbar = () => {
@@ -16,11 +16,11 @@ const Navbar = () => {
                          
                     </div>
                     <div className="navbar">
-                         <div className="navbar__item"><Link to="about" smooth duration={400}>About</Link></div>
-                         <div className="navbar__item"><Link to="experience" smooth duration={400}>Experience</Link></div>
-                         <div className="navbar__item"><Link to="projects" smooth duration={400}>Projects</Link></div>
-
-                         <Button color="btn-color.3" size="sm"> Contact </Button>
+                         <div className="navbar__item"><Link to="experience" smooth duration={400}> Experience </Link></div>
+                         <div className="navbar__item"><Link to="projects" smooth duration={400}> Projects </Link></div>
+                         <div className="navbar__item"><Link to="about" smooth duration={400}> About </Link></div>  
+                         <div className="navbar__item"><Link to="#" smooth duration={400}> Resume </Link></div>
+                         <ContactButton />
                     </div>
                </div>
 
@@ -30,28 +30,31 @@ const Navbar = () => {
                               opened={opened}
                               onClick={() => setOpened((open) => !open)}
                               size="sm"
+                              color="#DA0037"
                          />
                     </div>
 
                     <Drawer 
-                         transition="rotate-right"
+                         transition="rotate-left"
                          transitionDuration={300}
                          transitionTimingFunction="ease"
                          opened={opened}
                          onClose={() => setOpened(false)}
-                         position="right"
-                         overlayOpacity={0.5}
+                         position="top"
+                         overlayOpacity={0.55}
+                         overlayColor="var(--color-background)"
+                         overlayBlur={3}
                          padding="xl"
                     >
                          <div className="drawer__content">
                               <div className="drawer__items">
-                                   <div className="drawer__item"><Link to="#" smooth duration={400} onClick={() => setOpened(false)}><Title order={2}>About</Title></Link></div>
-                                   <div className="drawer__item"><Link to="#" smooth duration={400} onClick={() => setOpened(false)}><Title order={2}>Experience</Title></Link></div>
-                                   <div className="drawer__item"><Link to="#" smooth duration={400} onClick={() => setOpened(false)}><Title order={2}>Projects</Title></Link></div>
+                                   <div className="drawer__item"><Link to="experience" smooth duration={400} onClick={() => setOpened(false)}><Title order={3}>Experience</Title></Link></div>
+                                   <div className="drawer__item"><Link to="projects" smooth duration={400} onClick={() => setOpened(false)}><Title order={3}>Projects</Title></Link></div>
+                                   <div className="drawer__item"><Link to="socials" smooth duration={400} onClick={() => setOpened(false)}><Title order={3}>Socials</Title></Link></div>
                               </div>
 
                               <div className="drawer__items">
-                                   <SocialBar/>
+                                   <ContactButton/>
                               </div>
                          </div>
                     </Drawer>
