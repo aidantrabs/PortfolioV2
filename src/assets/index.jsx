@@ -4,6 +4,7 @@ import Wave from './wave.svg';
 import Gradient from './gradiant-placeholder.jpg';
 import Moon from './moon.svg';
 import Programmer from './programmer.svg';
+import Hero from './hero.svg';
 
 export {
      Headshot,
@@ -11,5 +12,6 @@ export {
      Wave,
      Gradient,
      Moon,
-     Programmer
+     Programmer,
+     Hero,
 }
