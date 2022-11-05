@@ -4,11 +4,10 @@
     display: flex;
     align-items: center;
     padding-top: 0px;
-    // background: rgb(52,73,102);
-    // background: linear-gradient(0deg, rgba(52,73,102,1) 0%, rgba(230,170,206,1) 100%);
- 
+    background-color: black;
+    background-image: url("../../assets/hero.svg");
+
     .hero__container {
-        text-align: center;
         padding: 160px 120px;
         border-radius: 25px;
          
