@@ -11,7 +11,7 @@ const AboutSection = () => {
                          <Grid.Col xs={6} sm={8} md={8} lg={8}>
                               <div style={{ marginBottom: 20 }}>
                                    <Text color="white">
-                                        <Title order={1}> About </Title>
+                                        <Title order={1}> Get to know me! 🚀  </Title>
                                         <div className="spacer" style={{ width: "100%", height: "1.5em" }} />                                       
                                         <Divider />
                                         <div className="spacer" style={{ width: "100%", height: "2em" }} />
@@ -27,6 +27,10 @@ const AboutSection = () => {
                               <Image src={Headshot} alt="headshot" style={{ width: '100%' }} radius="lg" />
                          </Grid.Col>
                     </Grid>
+
+                    <div className="spacer" style={{ width: "100%", height: "1.5em" }} />                                       
+                    <Divider />
+                    <div className="spacer" style={{ width: "100%", height: "2em" }} />
                </Container>
           </section>
      );
