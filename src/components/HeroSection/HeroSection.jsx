@@ -1,19 +1,21 @@
 import React from 'react';
 import './HeroSection.scss';
-import ParticlesBg from "particles-bg";
-import { Button, Container, MediaQuery, Text, Image, Grid, Title, Divider, Blockquote } from '@mantine/core';
+import { Container, Title } from '@mantine/core';
+import Typed from "react-typed"
 import { Link } from 'react-scroll';
 import { AiOutlineArrowDown } from 'react-icons/ai';
-import { Hero } from '../../assets';
-
 
 const HeroSection = () => {
      return (
           <>
                <section id="hero">
                     <Container fluid>
-                         <ParticlesBg color="#ffffff" num={120} type="cobweb" bg={true} />
-                         <p>Test</p>
+                         <div className="hero__container">
+                              <Title order={1} align="center" color={"white"} styles={{display: "inline"}}> 
+                                   {"Hi, I'm "}
+                                   <Typed strings={["Aidan","a student","a developer",]} typeSpeed={100} backSpeed={100} loop style={{color: "#DA0037"}}/>
+                              </Title>
+                         </div>
                     </Container>
                </section>
           </>

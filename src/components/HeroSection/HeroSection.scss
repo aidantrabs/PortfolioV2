@@ -5,7 +5,6 @@
     align-items: center;
     padding-top: 0px;
     background-color: black;
-    background-image: url("../../assets/hero.svg");
 
     .hero__container {
         padding: 160px 120px;
@@ -39,9 +38,9 @@
         }
     }
  
-     @media only screen and (max-width: 425px) {
-         .mantine-Container-root {
-             padding: 0px;
-         }
-     }
- }
+    @media only screen and (max-width: 425px) {
+        .mantine-Container-root {
+            padding: 0px;
+        }
+    }
+}
