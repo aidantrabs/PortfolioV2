@@ -12,8 +12,10 @@ const Navbar = () => {
      return (
           <header>
                <div className="navbar__desktop">
-                    <div>
-                         
+                    <div className="desktop__icon">
+                         <Link to="hero" smooth={true} duration={500}>
+                              <img src={Brand} alt="Navbar icon"/>
+                         </Link>
                     </div>
                     <div className="navbar">
                          <div className="navbar__item"><Link to="experience" smooth duration={400}> Experience </Link></div>
@@ -25,6 +27,12 @@ const Navbar = () => {
                </div>
 
                <div className="navbar__mobile">
+                    <div className="burger__icon">
+                         {/* Navbar icon */}
+                         <Link to="hero" smooth={true} duration={500}>
+                              <img src={Brand} alt="Navbar icon" />
+                         </Link>
+                    </div>
                     <div className="burger__button">
                          <Burger
                               opened={opened}
