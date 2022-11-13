@@ -32,7 +32,7 @@ const SocialBar = () => {
                 </Grid.Col>
 
                 <Grid.Col span={3}>
-                    <a href="#" target="_blank" rel="next noreferrer">
+                    <a href=".\Aidan_Traboulay_Resume.pdf" target="_blank" rel="next noreferrer">
                         <ActionIcon size="xl" variant="transparent"  color="btn-color.6">
                             <MdOutlineContactPage size={100}/>
                         </ActionIcon>
