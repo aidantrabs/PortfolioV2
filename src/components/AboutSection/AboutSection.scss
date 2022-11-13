@@ -4,3 +4,25 @@
           padding: 0;
      }
 }
+
+.mantine-Tabs-tab {
+     color: white;
+     &:hover {
+          background-color: transparent;
+     } 
+}
+
+.mantine-Tabs-tabLabel {
+     color: white;
+     
+}
+
+.mantine-Tabs-tabIcon {
+     color: white; 
+     
+}
+
+.mantine-Tabs-panel {
+     color: white;
+     text-align: center;
+}
