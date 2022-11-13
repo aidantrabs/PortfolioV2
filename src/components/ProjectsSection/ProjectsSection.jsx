@@ -32,7 +32,7 @@ const ProjectsSection = () => {
 
                                              <Group positon="apart" mt="md" mb="xs">
                                                   <Text weight={500}> Rendezvous </Text>
-                                                  <Badge color="btn-color.6" variant="dark"> Cybersecurity </Badge>
+                                                  <Badge color="btn-color.6" variant="dark"> Discord Bot </Badge>
                                              </Group>
 
                                              <Text size="sm" color="dimmed">
@@ -58,7 +58,7 @@ const ProjectsSection = () => {
 
                                              <Group positon="apart" mt="md" mb="xs">
                                                   <Text weight={500}> TechHunt </Text>
-                                                  <Badge color="btn-color.6" variant="dark"> Cybersecurity </Badge>
+                                                  <Badge color="btn-color.6" variant="dark"> Web Development </Badge>
                                              </Group>
 
                                              <Text size="sm" color="dimmed">
@@ -84,11 +84,36 @@ const ProjectsSection = () => {
 
                                              <Group positon="apart" mt="md" mb="xs">
                                                   <Text weight={500}> TabThat </Text>
-                                                  <Badge color="btn-color.6" variant="dark"> Cybersecurity </Badge>
+                                                  <Badge color="btn-color.6" variant="dark"> REST API </Badge>
                                              </Group>
 
                                              <Text size="sm" color="dimmed">
                                              REST API to create, read, update and delete bookmarks, which sends and recieves data via a database. Built using Go, Gin Web Framework and MongoDB. 
+                                             </Text>
+
+                                             <Button variant="dark" color="btn-color.6" mt="md" radius="md" fullWidth>
+                                                  View Project Code
+                                             </Button>
+                                        </Card>
+                                   </Carousel.Slide>
+
+                                   <Carousel.Slide>
+                                        <Card shadow="sm" p="lg" radius="lg" withBorder>
+                                             <Card.Section>
+                                                  <Image 
+                                                  src={Gradient}
+                                                  height={150}
+                                                  alt="Project 3"
+                                                  />
+                                             </Card.Section>
+
+                                             <Group positon="apart" mt="md" mb="xs">
+                                                  <Text weight={500}> MiniGames </Text>
+                                                  <Badge color="btn-color.6" variant="dark"> Game Development </Badge>
+                                             </Group>
+
+                                             <Text size="sm" color="dimmed">
+                                             Desktop application, built in Java, that contains two games, with instructions. Showcases use of Java Swing and AWT API. 
                                              </Text>
 
                                              <Button variant="dark" color="btn-color.6" mt="md" radius="md" fullWidth>
