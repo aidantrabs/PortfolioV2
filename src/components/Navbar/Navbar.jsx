@@ -21,7 +21,7 @@ const Navbar = () => {
                          <div className="navbar__item"><Link to="experience" smooth duration={400}> Experience </Link></div>
                          <div className="navbar__item"><Link to="projects" smooth duration={400}> Projects </Link></div>
                          <div className="navbar__item"><Link to="about" smooth duration={400}> About </Link></div>  
-                         <div className="navbar__item"><Link to="#" smooth duration={400}> Resume </Link></div>
+                         <div className="navbar__item"><a href=".\Aidan_Traboulay_Resume.pdf" target="_blank" rel="next noreferrer"> Resume </a> </div>
                          <ContactButton />
                     </div>
                </div>
