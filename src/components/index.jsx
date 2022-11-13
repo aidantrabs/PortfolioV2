@@ -10,6 +10,7 @@ import HeroDivider from './Dividers/HeroDivider';
 import ExperienceDivider from './Dividers/ExperienceDivider';
 import ProjectDivider from './Dividers/ProjectDivider';
 import ContactDivider from './Dividers/ContactDivider';
+import Graphic from './Graphic/Graphic';
 
 export {
      Navbar,
@@ -24,4 +25,5 @@ export {
      ProjectDivider,
      ContactDivider,
      ContactButton,
+     Graphic,
 };
