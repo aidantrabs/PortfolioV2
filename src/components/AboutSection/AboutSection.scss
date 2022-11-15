@@ -3,6 +3,14 @@
           margin: 0;
           padding: 0;
      }
+
+     a {
+          text-decoration: none;
+          color: #DA0037;
+          &:hover {
+               text-decoration: none;
+          }
+     } 
 }
 
 .mantine-Tabs-tab {

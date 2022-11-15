@@ -1,7 +1,6 @@
 import React from 'react';
 import './AboutSection.scss';
-import { Center, Blockquote, Container, Tabs, Text, Title, Divider, Grid } from '@mantine/core';
-import { Headshot } from '../../assets';
+import { Blockquote, Container, Tabs, Text, Title, Divider, Grid } from '@mantine/core';
 import { IconInfoCircle, IconTools, IconArchive } from '@tabler/icons';
 
 const AboutSection = () => {
@@ -10,7 +9,7 @@ const AboutSection = () => {
                <Container>
                     <div style={{ marginBottom: 20 }}>
                          <Text color="white">
-                              <Title order={1}> Get to know me more! 🚀 </Title>
+                              <Title order={1}> Get to know me! 🚀 </Title>
                               <div className="spacer" style={{ width: "100%", height: "1.5em" }} />                                       
                               <Divider />
                               <div className="spacer" style={{ width: "100%", height: "2em" }} />
@@ -103,7 +102,36 @@ const AboutSection = () => {
                               </Tabs.Panel>
 
                               <Tabs.Panel value="hobbies" pt="lg">
+                                   <Title order={4} color="btn-color.6">Research</Title>
+                                   <div className="spacer" style={{ width: "100%", height: "0.75em" }} />
+                                   <Text color="white">
+                                        I'm currently invested in learning more about cybersecurity and it's applications and working towards certificiations - such as my CompTIA Security+ and PenTest+.
+                                        Similarly, I'm also interested in learning more about machine learning and artificial intelligence and the interconnection between those two concepts and neuroscience.
+                                   </Text>
+                                   
+                                   <div className="spacer" style={{ width: "100%", height: "1.5em" }} />
 
+                                   <Title order={4} color="btn-color.6">Books</Title>
+                                   <div className="spacer" style={{ width: "100%", height: "0.75em" }} />
+                                   <Text color="white">
+                                        My current read: <a href="https://www.goodreads.com/book/show/29100837-the-idiot-brain" color="btn-color.6" target="_blank" rel="external noreferrer">The Idiot Brain</a> by Dean Burnett. 
+                                   </Text>
+
+                                   <div className="spacer" style={{ width: "100%", height: "1.5em" }} />
+
+                                   <Title order={4} color="btn-color.6">Music</Title>
+                                   <div className="spacer" style={{ width: "100%", height: "0.75em" }} />
+                                   <Text color="white">
+                                        My spotify: <a href="https://open.spotify.com/user/6i0m4je93owu6fj415kona4yu?si=5e4d024d64644721" color="btn-color.6" target="_blank" rel="external noreferrer">aidantrabs</a>
+                                   </Text>
+                                   
+                                   <div className="spacer" style={{ width: "100%", height: "1.5em" }} />
+
+                                   <Title order={4} color="btn-color.6">Video Games</Title>
+                                   <div className="spacer" style={{ width: "100%", height: "0.75em" }} />
+                                   <Text color="white">
+                                        Currently playing: <a href="https://tracker.gg/valorant/profile/riot/trabsy%23wabsy/overview" color="btn-color.6" target="_blank" rel="external noreferrer">Valorant</a>
+                                   </Text>
                               </Tabs.Panel>
                          </Tabs>
                     </div>
