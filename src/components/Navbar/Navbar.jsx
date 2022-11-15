@@ -58,7 +58,7 @@ const Navbar = () => {
                               <div className="drawer__items">
                                    <div className="drawer__item"><Link to="experience" smooth duration={400} onClick={() => setOpened(false)}><Title order={3}>Experience</Title></Link></div>
                                    <div className="drawer__item"><Link to="projects" smooth duration={400} onClick={() => setOpened(false)}><Title order={3}>Projects</Title></Link></div>
-                                   <div className="drawer__item"><Link to="socials" smooth duration={400} onClick={() => setOpened(false)}><Title order={3}>Socials</Title></Link></div>
+                                   <div className="drawer__item"><Link to="about" smooth duration={400} onClick={() => setOpened(false)}><Title order={3}>About</Title></Link></div>
                               </div>
 
                               <div className="drawer__items">
