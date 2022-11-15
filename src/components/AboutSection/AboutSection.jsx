@@ -36,8 +36,7 @@ const AboutSection = () => {
                                    At first, I considered this more of a hobby that I did not see as a potential career and was more inclinded towards business, 
                                    philosophy and the arts, mostly english and music. However, in my final year of my first high school, I discovered that I had a natural
                                    talent for programming, mathematics and tinkering with technology. I liked to solve puzzles and figure out the patterns in such puzzles, so much so,
-                                   that my thinking behand to form around this idea. Naturally, I found computer science to be a perfect fit for me.   
-
+                                   that my thinking began to form around this idea. Naturally, I found computer science to be a perfect fit for me.   
                                  </Text>
                               </Tabs.Panel>
 
