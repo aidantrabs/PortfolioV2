@@ -32,3 +32,8 @@ $ yarn
 ```sh
 $ yarn dev
 ```
+
+### TODO
+- Refactor everything :(
+- Create forms for easy scalability 
+- Create login auth to update info easily
