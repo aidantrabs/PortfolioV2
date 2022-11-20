@@ -34,6 +34,6 @@ $ yarn dev
 ```
 
 ### TODO
-- Refactor everything :(
+- Refactor data-centric components :(
 - Create forms for easy scalability 
 - Create login auth to update info easily
