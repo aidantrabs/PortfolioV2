@@ -17,7 +17,7 @@
 
 ## Development :computer:
 ### Requirements
-- Node.js, NPM, Yarn
+- Node.js, NPM, pNpM
 
 ### Setup
 - Clone repo
