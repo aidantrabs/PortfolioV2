@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.scss";
-import { SocialBar } from "../../components";
+import { SocialBar } from "@components";
 
 const Footer = () => {
      return (

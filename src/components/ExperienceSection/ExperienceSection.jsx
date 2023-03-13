@@ -2,8 +2,7 @@ import React from 'react';
 import './ExperienceSection.scss';
 import { Accordion, Badge, Container, Divider, Grid, Timeline, Text, Title } from '@mantine/core';
 import { BsClipboardCheck, BsLaptop } from 'react-icons/bs';
-import Typed from "react-typed"
-
+import Typed from "react-typed";
 
 const ExperienceSection = () => {
      return (

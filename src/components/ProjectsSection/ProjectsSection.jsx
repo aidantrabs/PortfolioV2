@@ -2,7 +2,7 @@ import React from 'react';
 import './ProjectsSection.scss';
 import { Center, Button, Badge, Container, Card, Group, Image, Text, Title, Divider } from '@mantine/core';
 import { Carousel } from '@mantine/carousel';
-import { Gradient } from '../../assets';
+import { Gradient } from '@assets';
 
 const ProjectsSection = () => {
      return (
