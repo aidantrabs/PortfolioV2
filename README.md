@@ -26,11 +26,11 @@ $ git clone https://github.com/aidantrabs/portfolio-v2
 ```
 - Install dependencies 
 ```sh
-$ yarn
+$ pnpm i
 ```
 - Launch local server
 ```sh
-$ yarn dev
+$ pnpm dev
 ```
 
 ### TODO
