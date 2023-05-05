@@ -9,10 +9,11 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
-body {
+html, #root {
   // background-image: url("./assets/background.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: var(--color-background);
 
   margin: 0;
   padding: 0;
